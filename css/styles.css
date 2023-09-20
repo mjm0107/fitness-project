@@ -19,7 +19,9 @@ figure,
 figcaption,
 section,
 article,
-aside {
+aside,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,7 +33,7 @@ body {
   background-color: #000;
 }
 
-img {
+img, video {
   max-width: 100%;
   display: block;
 }
@@ -83,6 +85,10 @@ nav li a {
   color: #fff;
   padding: 0.5em 1em;
   text-decoration: none;
+}
+
+video {
+  margin: 0 auto 4%;
 }
 
  /* Show mobile class, hide tablet-desktop class */
