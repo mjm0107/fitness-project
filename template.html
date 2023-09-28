@@ -14,9 +14,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
     <title>Forward Fitness Project</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
   </head>
   <body>
+
+    <!-- Skip to Content Link-->
+    <a class="skip" href="#content">Skip to Content</a>
+
     <div id="container">
       <!-- Mobile Nav -->
       <nav class="mobile-nav">
@@ -31,7 +35,7 @@
 
           <a href="contact.html">Contact Us</a>
         </div>
-        <a class="menu-icon" onclick="hamburger"()>
+        <a class="menu-icon" onclick="hamburger()">
           <div>&#9776;</div>
         </a>
       </nav>
@@ -60,16 +64,27 @@
       </nav>
 
       <!-- Use the main area to add the main content of the webpage -->
-      <main>
+      <main id="content">
         <div></div>
       </main>
 
       <!-- Use the footer area to add webpage footer content -->
       <footer>
-        <p>&copy; Copyright 2023. All Rights Reserved.</p>
-        <p>
-          <a href="mailto:ForwardFitness@club.net">forwardfitness@club.net</a>
-        </p>
+
+        <div class="copyright">
+          <p>&copy; Copyright 2023. All Rights Reserved.</p>
+          <p>
+            <a href="mailto:ForwardFitness@club.net">ForwardFitness@club.net</a>
+          </p>
+        </div>
+        <div class="social">
+         
+          <a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+          
+          <a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+        
+        </div>
+
       </footer>
     </div>
 
